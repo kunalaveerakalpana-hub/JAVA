@@ -1,14 +1,10 @@
 Churchill was a kindhearted man, and he wanted to give a cakewalk problem to the coders present, to warm them up.
-
  Given an array of N integers, print the product of the numbers present in the array.
-
 Use appropriate variable types to avoid overflow errors
 
 Input
 The first line contains T, the number of test cases.
-
 Each test cases consists of two lines, the first line containing N, the number of elements, and the second line containing N integers.
-
 Output
  For each test case, print the required answer in a single line.
 
@@ -22,10 +18,8 @@ Input:
 2
 2 2
 Output:
-
 4
  
-
 PROGRAM:
 import java.util.Scanner;
 public class Main{
@@ -41,4 +35,5 @@ public class Main{
             System.out.println(product);
         }
     }
+
 }
