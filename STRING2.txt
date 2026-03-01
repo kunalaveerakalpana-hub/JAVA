@@ -1,0 +1,31 @@
+Given a string, check if it contains only digits.
+
+Input Format
+Input contains a string S, consisting of ascii characters.
+
+Constraints
+1 <= len(S) <= 100
+
+Output Format
+Print "Yes" if string contains only digits, "No" otherwise.
+
+Input	
+123456786543
+Output
+Yes
+
+PROGRAM
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String S=sc.nextLine();
+        if (S.matches("\\d+")){ 
+            System.out.println("Yes");
+        }
+        else{
+            System.out.println("No");
+        }
+    }
+}
